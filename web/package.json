@@ -25,7 +25,7 @@
 	"markdown-it-emoji": "^2.0.0",
     "markdown-it-mathjax3": "^4.3.2",
     "markmap-common": "^0.16.0",
-    "markmap-lib": "^0.16.1",
+    "markmap-lib": "^0.18.12",
     "markmap-toolbar": "^0.17.0",
     "markmap-view": "^0.16.0",
     "md-editor-v3": "^2.2.1",
