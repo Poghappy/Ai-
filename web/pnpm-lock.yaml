@@ -66,8 +66,8 @@ importers:
         specifier: ^0.17.0
         version: 0.17.2(markmap-common@0.16.0)
       markmap-view:
-        specifier: ^0.16.0
-        version: 0.16.0(markmap-common@0.16.0)
+        specifier: ^0.18.12
+        version: 0.18.12(markmap-common@0.16.0)
       md-editor-v3:
         specifier: ^2.2.1
         version: 2.11.3(vue@3.5.14)
@@ -3184,6 +3184,11 @@ packages:
 
   markmap-view@0.16.0:
     resolution: {integrity: sha512-JOiSEThs8B4bAP9E6rcCWOz2SsMwCBFaR76wLARRVb04C/qLiLmvrm675kNPq4lRBAwtugHCYvjG0otpSlB4Cw==}
+    peerDependencies:
+      markmap-common: '*'
+
+  markmap-view@0.18.12:
+    resolution: {integrity: sha512-D8bzT1YwIC/8rkbwm6WzigVUrpOAGv7ioEGTi1Lj+Oo8gO5sAm6hhli27jvTgUcZ9TwBeIWZ+dSUP+AupYUGlQ==}
     peerDependencies:
       markmap-common: '*'
 
@@ -8331,6 +8336,12 @@ snapshots:
       '@types/d3': 7.4.3
       d3: 7.9.0
       d3-flextree: 2.1.2
+      markmap-common: 0.16.0
+
+  markmap-view@0.18.12(markmap-common@0.16.0):
+    dependencies:
+      '@babel/runtime': 7.27.1
+      d3: 7.9.0
       markmap-common: 0.16.0
 
   math-intrinsics@1.1.0: {}
