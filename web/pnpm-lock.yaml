@@ -63,8 +63,8 @@ importers:
         specifier: ^0.16.1
         version: 0.16.1(markmap-common@0.16.0)
       markmap-toolbar:
-        specifier: ^0.17.0
-        version: 0.17.2(markmap-common@0.16.0)
+        specifier: ^0.18.12
+        version: 0.18.12(markmap-common@0.16.0)
       markmap-view:
         specifier: ^0.16.0
         version: 0.16.0(markmap-common@0.16.0)
@@ -3177,8 +3177,8 @@ packages:
     peerDependencies:
       markmap-common: '*'
 
-  markmap-toolbar@0.17.2:
-    resolution: {integrity: sha512-WQ05P2xvQmZT0ybRUE0uRzrs30aXlJ6/yEUsA6A9nYEwm8T9jSwBxIM/5zYlkH/XzUcsRRxtCa4k1IWR74gkpQ==}
+  markmap-toolbar@0.18.12:
+    resolution: {integrity: sha512-+MQ/95ywl/ZLhVKb0tKjRa3p/AuUSYsuJRs1MPHmkxcxBaumXgzLNHUUnLjKmsbNxeZUSQGe3QJaFyRQYcHZJg==}
     peerDependencies:
       markmap-common: '*'
 
@@ -8318,7 +8318,7 @@ snapshots:
       remarkable: 2.0.1
       remarkable-katex: 1.2.1
 
-  markmap-toolbar@0.17.2(markmap-common@0.16.0):
+  markmap-toolbar@0.18.12(markmap-common@0.16.0):
     dependencies:
       '@babel/runtime': 7.27.1
       '@gera2ld/jsx-dom': 2.2.2
